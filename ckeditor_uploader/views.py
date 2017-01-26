@@ -191,4 +191,4 @@ def browse(request):
         'files': files,
         'form': form
     }
-    return render(request, 'ckeditor/browse.html', context)
+    return render(request, 'ckeditor_uploader/templates/ckeditor/browse.html', context)
